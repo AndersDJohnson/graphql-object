@@ -4,8 +4,9 @@
   "description": "Use GraphQL syntax to query into an object in-memory.",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:cjs": "rollup src/index.js --file dist/index.js --format cjs",
+    "build:esm": "rollup src/index.js --file dist/index.mjs --format esm"
   },
   "dependencies": {
     "graphql": "14.5.8",
@@ -13,7 +14,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1"
+    "rollup": "^1.27.10"
   },
   "keywords": [
     "graphql",
