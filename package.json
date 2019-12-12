@@ -12,8 +12,12 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "graphql-tag": "2.10.1",
     "@babel/core": "7.2.0",
+    "@babel/preset-env": "^7.7.6",
+    "babel-plugin-graphql-tag": "^2.5.0",
+    "graphql": "^14.5.8",
+    "graphql-tag": "2.10.1",
+    "jest": "^24.9.0",
     "rollup": "^1.27.10"
   },
   "keywords": [
