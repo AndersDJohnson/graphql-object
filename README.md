@@ -2,7 +2,7 @@
 
 > Use GraphQL syntax to query into an object in-memory.
 
-![npm](https://img.shields.io/npm/v/graphql-object)
+[![npm](https://img.shields.io/npm/v/graphql-object)](https://www.npmjs.com/package/graphql-object)
 
 [![npm add graphql-object (copy)](https://copyhaste.com/i?t=npm%20add%20graphql-object)](https://copyhaste.com/c?t=npm%20add%20graphql-object "npm add graphql-object (copy)")
 [![yarn add graphql-object (copy)](https://copyhaste.com/i?t=yarn%20add%20graphql-object)](https://copyhaste.com/c?t=yarn%20add%20graphql-object "yarn add graphql-object (copy)")
