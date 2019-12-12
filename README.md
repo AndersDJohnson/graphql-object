@@ -21,6 +21,8 @@ by decoupling the fetching of that data from the querying into it for usage in c
 Or, it could be the basis for an architecture to switch to persisted queries from REST endpoints at runtime in production,
 while still using real-time GraphQL queries in development environments.
 
+To keep it light, it does not support `@skip`, `@include`, arguments, variables, fragments, or aliases at this time.
+
 ```js
 import gql from 'graphql-tag'
 import graphql from 'graphql-object'
