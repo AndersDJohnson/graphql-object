@@ -2,7 +2,8 @@
   "name": "graphql-object",
   "version": "1.0.0",
   "description": "Use GraphQL syntax to query into an object in-memory.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "rollup src/index.js --file dist/index.js --format cjs",
