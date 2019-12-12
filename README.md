@@ -7,7 +7,7 @@
 [![npm add graphql-object (copy)](https://copyhaste.com/i?t=npm%20add%20graphql-object)](https://copyhaste.com/c?t=npm%20add%20graphql-object "npm add graphql-object (copy)")
 [![yarn add graphql-object (copy)](https://copyhaste.com/i?t=yarn%20add%20graphql-object)](https://copyhaste.com/c?t=yarn%20add%20graphql-object "yarn add graphql-object (copy)")
 
-A micro-library to letting you select from an object using GraphQL syntax.
+A dependency-free micro-library to letting you select from an object using GraphQL syntax.
 Unlike alternatives such as [`graphql-anywhere`](https://www.npmjs.com/package/graphql-anywhere),
 it does not rely on the heavy `graphql` library as a peer dependency.
 
