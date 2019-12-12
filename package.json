@@ -4,6 +4,7 @@
   "description": "Use GraphQL syntax to query into an object in-memory.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
+  "sideEffects": false,
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "rollup src/index.js --file dist/index.js --format cjs",
