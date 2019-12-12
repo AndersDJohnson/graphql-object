@@ -1,7 +1,7 @@
 {
   "name": "graphql-object",
   "version": "1.0.0",
-  "description": "",
+  "description": "Use GraphQL syntax to query into an object in-memory.",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html --open",
@@ -15,5 +15,9 @@
     "@babel/core": "7.2.0",
     "parcel-bundler": "^1.6.1"
   },
-  "keywords": []
+  "keywords": [
+    "graphql",
+    "graphql-client",
+    "graphql-tag"
+  ]
 }
