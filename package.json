@@ -9,7 +9,8 @@
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "rollup src/index.js --file dist/index.js --format cjs",
-    "build:esm": "rollup src/index.js --file dist/index.mjs --format esm"
+    "build:esm": "rollup src/index.js --file dist/index.mjs --format esm",
+    "test": "jest"
   },
   "dependencies": {},
   "devDependencies": {
