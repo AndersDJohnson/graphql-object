@@ -41,12 +41,14 @@ const object = {
 }
 
 const query = gql`
-  firstName
-  lastName
-  job {
-    title
-    company {
-      name
+  {
+    firstName
+    lastName
+    job {
+      title
+      company {
+        name
+      }
     }
   }
 `
