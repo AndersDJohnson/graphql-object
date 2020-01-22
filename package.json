@@ -2,6 +2,7 @@
   "name": "graphql-object",
   "version": "1.0.1",
   "description": "Use GraphQL syntax to query into an object in-memory.",
+  "repository": "AndersDJohnson/graphql-object",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "sideEffects": false,
