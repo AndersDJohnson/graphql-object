@@ -8,12 +8,11 @@
 [![yarn add graphql-object (copy)](https://copyhaste.com/i?t=yarn%20add%20graphql-object)](https://copyhaste.com/c?t=yarn%20add%20graphql-object "yarn add graphql-object (copy)")
 
 A dependency-free micro-library to letting you select from an object using GraphQL syntax.
-Unlike alternatives such as [`graphql-anywhere`](https://www.npmjs.com/package/graphql-anywhere),
-it does not rely on the heavy `graphql` library as a peer dependency.
+It's lighter than alternatives like [`graphql-anywhere`](https://www.npmjs.com/package/graphql-anywhere).
 
-You can use [`graphql-tag`](https://github.com/apollographql/graphql-tag) for string query syntax,
-but it's recommended to use [`babel-plugin-graphql-tag`](https://github.com/gajus/babel-plugin-graphql-tag)
-to pre-compile them at build-time for almost no runtime bundlesize overhead.
+To avoid dependency on the heavy `graphql` library as a peer dependency, it's recommended to use [`graphql-tag`](https://github.com/apollographql/graphql-tag) for string query syntax
+along with [`babel-plugin-graphql-tag`](https://github.com/gajus/babel-plugin-graphql-tag)
+to pre-compile them at build-time.
 
 This library could be handy when when migrating existing traditional applications that get data from REST endpoints to a GraphQL ecosystem
 by decoupling the fetching of that data from the querying into it for usage in components.
