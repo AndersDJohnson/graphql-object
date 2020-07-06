@@ -26,5 +26,6 @@
     "graphql",
     "graphql-client",
     "graphql-tag"
-  ]
+  ],
+  "license": "MIT"
 }
